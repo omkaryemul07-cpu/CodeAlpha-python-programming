@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+#Python Mini Projects Collection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a set of small Python projects designed to help beginners practice core programming concepts. Each project demonstrates key Python skills such as loops, conditionals, lists, dictionaries, file handling, and user input/output.
 
-## Available Scripts
+Projects Included
+1. Hangman Game
 
-In the project directory, you can run:
+A simple text-based Hangman game where the player guesses a word one letter at a time.
 
-### `npm start`
+Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contains a small predefined list of 5 words.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Player can make up to 6 incorrect guesses.
 
-### `npm test`
+Shows the current progress and remaining attempts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Concepts Used: random, while loops, if-else statements, strings, lists, console input/output.
 
-### `npm run build`
+How to Use:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open a terminal and navigate to the folder containing hangman.py.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run the script:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+python hangman.py
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow the on-screen prompts to guess letters until you either guess the word or run out of attempts.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Stock Portfolio Tracker
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A basic tool to calculate the total value of a stock portfolio.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Features:
 
-## Learn More
+Users can enter stock names and quantities.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Uses a hardcoded dictionary for stock prices (e.g., {"AAPL": 180, "TSLA": 250}).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Calculates and displays the total investment value.
 
-### Code Splitting
+Optionally saves the results to a .txt or .csv file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Concepts Used: Dictionaries, arithmetic operations, input/output, file handling (optional).
 
-### Analyzing the Bundle Size
+How to Use:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Run the script:
 
-### Making a Progressive Web App
+python stock_tracker.py
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Enter the stock name and quantity when prompted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+After entering all stocks, type done to see the total investment value.
 
-### Deployment
+If implemented, you can save the result by following the on-screen instructions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Task Automation Scripts
 
-### `npm run build` fails to minify
+Automates repetitive real-life tasks with Python scripts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Examples Included:
+
+Move all .jpg files from one folder to another.
+
+Extract email addresses from a .txt file and save them to another file.
+
+Scrape and save the title of a fixed webpage.
+
+Concepts Used: os, shutil, re, requests, file handling.
+
+How to Use:
+
+Open a terminal and navigate to the folder containing the script.
+
+Run the desired script:
+
+python move_jpgs.py
+python extract_emails.py
+python scrape_title.py
+
+
+Follow on-screen prompts to provide folder paths or filenames.
+
+4. Basic Chatbot
+
+A simple rule-based chatbot for console interaction.
+
+Features:
+
+Responds to user inputs like "hello", "how are you", "bye".
+
+Provides predefined replies such as "Hi!", "I'm fine, thanks!", "Goodbye!".
+
+Concepts Used: if-elif statements, functions, loops, console input/output.
+
+How to Use:
+
+Run the script:
+
+python chatbot.py
+
+
+Type your messages in the console and the chatbot will respond.
+
+Type "bye" to end the conversation.
+
+How to Run All Projects
+
+Clone the repository:
+
+git clone https://github.com/omkaryemul07/python-mini-projects.git
+
+
+Navigate to the project folder:
+
+cd python-mini-projects
+
+
+Run any project using Python 3:
+
+python <script_name>.py
+
+
+Replace <script_name> with the appropriate file, e.g., hangman.py.
