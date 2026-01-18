@@ -1,9 +1,9 @@
-#Python Mini Projects Collection
+# Python Mini Projects Collection
 
 This repository contains a set of small Python projects designed to help beginners practice core programming concepts. Each project demonstrates key Python skills such as loops, conditionals, lists, dictionaries, file handling, and user input/output.
 
 Projects Included
-1. Hangman Game
+# 1. Hangman Game
 
 A simple text-based Hangman game where the player guesses a word one letter at a time.
 
@@ -28,7 +28,7 @@ python hangman.py
 
 Follow the on-screen prompts to guess letters until you either guess the word or run out of attempts.
 
-2. Stock Portfolio Tracker
+# 2. Stock Portfolio Tracker
 
 A basic tool to calculate the total value of a stock portfolio.
 
@@ -57,7 +57,7 @@ After entering all stocks, type done to see the total investment value.
 
 If implemented, you can save the result by following the on-screen instructions.
 
-3. Task Automation Scripts
+# 3. Task Automation Scripts
 
 Automates repetitive real-life tasks with Python scripts.
 
@@ -84,7 +84,7 @@ python scrape_title.py
 
 Follow on-screen prompts to provide folder paths or filenames.
 
-4. Basic Chatbot
+# 4. Basic Chatbot
 
 A simple rule-based chatbot for console interaction.
 
